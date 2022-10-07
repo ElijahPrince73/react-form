@@ -24,3 +24,14 @@ a {
     background: black;
   }
 }
+
+
+.form-input {
+  margin-bottom: 1.5%;
+}
+
+.error-message {
+  color: red;
+  margin-top: 5px;
+  display: block;
+}

@@ -1565,6 +1565,7 @@ __metadata:
     final-form: 4.20.7
     immer: 9.0.15
     next: 12.3.0
+    next-redux-wrapper: 8.0.0
     react: 18.2.0
     react-dom: 18.2.0
     react-final-form: 6.5.9
@@ -2276,6 +2277,17 @@ __metadata:
   version: 1.4.0
   resolution: "natural-compare@npm:1.4.0"
   checksum: 23ad088b08f898fc9b53011d7bb78ec48e79de7627e01ab5518e806033861bef68d5b0cd0e2205c2f36690ac9571ff6bcb05eb777ced2eeda8d4ac5b44592c3d
+  languageName: node
+  linkType: hard
+
+"next-redux-wrapper@npm:8.0.0":
+  version: 8.0.0
+  resolution: "next-redux-wrapper@npm:8.0.0"
+  peerDependencies:
+    next: ">=9"
+    react: "*"
+    react-redux: "*"
+  checksum: edced26b263d2484904d54542cd2c7d8e3a2c45fb571d075ca7f78cc32e16ef87c14737d47bf60db3b6e1859f4237c3a370285741d5cb7eda5cc7b5cb2590596
   languageName: node
   linkType: hard
 

@@ -1,6 +1,7 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
-import { Exercise } from '../Exercise';
+import Exercise from '../components/Exercise';
+import { Container } from '@mui/material';
 
 const Home: NextPage = () => {
   return (
@@ -11,10 +12,10 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main>
+      <Container maxWidth="lg">
         <h1>Form Exercise</h1>
         <Exercise />
-      </main>
+      </Container>
     </div>
   );
 };
